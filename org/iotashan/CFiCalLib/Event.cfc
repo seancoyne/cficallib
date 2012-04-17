@@ -289,7 +289,7 @@
 			<cfset ret = ret & "DURATION:" & THIS.duration & crlf />
 		</cfif>
 		<cfif isDefined("THIS.transp")>
-			<cfset ret = ret & "TRANSP:" & icalBoolean(THIS.transp) & crlf />
+			<cfset ret = ret & "TRANSP:" & THIS.transp & crlf />
 		</cfif>
 		<cfif isDefined("THIS.exdate")>
 			<cfset ret = ret & THIS.exdate & crlf />
